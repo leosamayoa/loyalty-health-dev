@@ -1,0 +1,57 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder. 
+// Just copy a variable from /sass/bootstrap/_variables.scss, paste it here and edit the value.
+// As example you find one of the most important Bootstrap variable below: $brand-primary.
+// Thats the ugly Bootstrap blue used for all the links, primary buttons etc.
+// Just add your color code here, compile the theme.scss file to change this color everywhere
+
+// $fa-font-path:        "../fonts";
+
+//
+// Color system
+//
+$light-blue: #08a5f6;
+$light-gray: #EFEFEF;
+$v-light-gray: #e2e2e2;
+$gray: #c4c4c4;
+$dark-gray: #333;
+$black: #000;
+$dark-mode-bg: #262626;
+
+$input-border-color: #d4d4d4;
+$input-text-color: #2b2d30;
+
+// $primary: $light-blue !important;
+
+
+// Changed Bootstrap variables
+$navbar-light-color: $black;
+$primary: #08A5F6;
+
+
+/* Pagination */
+$pagination-color: $black;
+$pagination-bg: $light-gray;
+
+/**
+ ** Responsive Breakpoints
+ **/
+$breakpoint-xs: 400px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1300px;
+$breakpoint-xxxl: 1481px;
+
+$breakpoint-max-width: 1920px;
+
+/* Other */ /* Important */
+$top-footer-height: 700px;
+$top-footer-height-xl: 600px;
+$top-footer-height-lg: auto;
+
+$mp-overlay-bgcolor: rgba(0, 0, 0, 0.23);
+$mp-overlay-bgcolor-dark-mode: rgba(255, 255, 255, 0.23);
+
+$circle-border-color: #707070;
