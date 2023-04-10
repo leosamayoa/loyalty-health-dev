@@ -11127,6 +11127,11 @@ body {
         font-size: 2.3rem; } }
   body .fs-45 {
     font-size: 2.8125rem; }
+    @media screen and (max-width: 768px){
+      body .fs-45 {
+          font-size: 1.8rem;
+      }
+      }
   body .fs-35 {
     font-size: 2.1875rem; }
   body .fs-30 {
@@ -16469,9 +16474,9 @@ article#post-9 .post-edit-link {
 	}
 }
 @media (min-width:768px) and (max-width:1400px){
-	#wrapper-navbar .logo-wrap {
+	/* #wrapper-navbar .logo-wrap {
   width: 100px !important;
-}
+} */
 }
 @media (max-width:992px){
 	.quick_btnbox{
@@ -17543,6 +17548,11 @@ div#field_2_17 label.gfield_label.gform-field-label {
   left: unset;
 }
 
+.quick-start-wrap #gform_2 #input_2_22{
+  font-family: "StyleScript-Regular";
+  font-size:32px;
+}
+
 .quick-start-wrap input#choice_2_18_1{
   margin-bottom:0px !important;
 }
@@ -17632,6 +17642,10 @@ div#field_2_17 label.gfield_label.gform-field-label {
 
 div#wistia_chrome_23 {
   border-radius: 10px !important;
+}
+
+#wistia-video .w-big-play-button{
+  display:none!important;
 }
 
 @media (max-width:1300px){

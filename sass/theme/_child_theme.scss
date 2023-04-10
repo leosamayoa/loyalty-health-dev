@@ -11,6 +11,8 @@
   src: url('../fonts/Raleway/Raleway-Regular.ttf'); } 
 @font-face { font-family: "Raleway"; 
   src: url('../fonts/Raleway/Raleway-Medium.ttf'); } 
+@font-face { font-family: "StyleScript-Regular"; 
+  src: url('../fonts/Style_Script/StyleScript-Regular.ttf'); } 
 /* Globals */
 html {
   scroll-behavior: smooth;
@@ -435,6 +437,10 @@ body {
   .fs-45 {
     font-size: 2.8125rem;
     // 35px
+
+    @media screen and (max-width: $breakpoint-md) {
+      font-size: 1.8rem;
+    }
   }
   .fs-35 {
     font-size: 2.1875rem;
@@ -4559,11 +4565,11 @@ $path-start-left: 40px;
      min-height: 450px;
     }
     @media only screen and (max-width: $breakpoint-sm) {
-      padding-bottom: 0;
+      padding-bottom: 0!important;
     }
     .content-wrap {
       @media only screen and (max-width: $breakpoint-sm) {
-        padding-bottom: 100px;
+        padding-bottom: 0px;
       }
     }
     

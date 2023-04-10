@@ -34,6 +34,28 @@ $container = get_theme_mod( 'understrap_container_type' );
 		  gtag('js', new Date());
 
 		  gtag('config', 'UA-161878099-1');
+			
+			function getBrowserData() {
+	var navigator = window.navigator;
+
+	var data = {
+		acceptHeader: 'application/json',
+		userAgent: navigator.userAgent,
+		language: navigator.language,
+		timezone: (new Date()).getTimezoneOffset().toString(),
+		colorDepth: screen.colorDepth,
+		screen: {
+			height: screen.height.toString(),
+			width: screen.width.toString()
+		},
+		javaScriptEnabled: true,
+		javaEnabled: navigator.javaEnabled()
+	};
+
+	return JSON.stringify(data);
+}
+
+			
 		</script>
 	<!-- End Google Tag Manager -->
 	

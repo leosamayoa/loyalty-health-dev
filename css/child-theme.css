@@ -10677,6 +10677,10 @@ a.skip-link {
   font-family: "Raleway";
   src: url("../fonts/Raleway/Raleway-Medium.ttf"); }
 
+@font-face {
+  font-family: "StyleScript-Regular";
+  src: url("../fonts/Style_Script/StyleScript-Regular.ttf"); }
+
 /* Globals */
 html {
   scroll-behavior: smooth; }
@@ -10980,6 +10984,9 @@ body {
         font-size: 2.3rem; } }
   body .fs-45 {
     font-size: 2.8125rem; }
+    @media screen and (max-width: 768px) {
+      body .fs-45 {
+        font-size: 1.8rem; } }
   body .fs-35 {
     font-size: 2.1875rem; }
   body .fs-30 {
@@ -14781,10 +14788,10 @@ body.page-id-1939 {
         min-height: 450px; } }
     @media only screen and (max-width: 576px) {
       #hr-wrapper #hr-section-bottom {
-        padding-bottom: 0; } }
+        padding-bottom: 0 !important; } }
     @media only screen and (max-width: 576px) {
       #hr-wrapper #hr-section-bottom .content-wrap {
-        padding-bottom: 100px; } }
+        padding-bottom: 0px; } }
     #hr-wrapper #hr-section-bottom #bottom-section-svg {
       margin-bottom: 100px;
       opacity: 0; }
