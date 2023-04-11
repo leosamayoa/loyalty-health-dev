@@ -171,7 +171,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                      
                         <!-- Section One -->
                         <?php if($lh_hr_section_1_title || $lh_hr_section_1_content) : ?>
-                            <section class="solutions-section position-relative" id="hr-section-one">
+                            <section class="solutions-section position-relative pb-0 pb-lg-5" id="hr-section-one">
                                 <div class="row">
                                     <!-- svg path follow -->
                                     <svg class="position-absolute" id="hr-path-follow-1" xmlns="http://www.w3.org/2000/svg" width="1" height="130.334" viewBox="0 0 1 130.334">

@@ -12627,18 +12627,6 @@ body.page-id-1939 {
 .solutions-subpg-wrap .solutions-section .image-wrap.left {
   padding-right: 50px; }
 
-@media only screen and (max-width: 1581px) {
-  .solutions-subpg-wrap .solutions-section .text-content {
-    margin-top: -100px; } }
-
-@media only screen and (max-width: 1300px) {
-  .solutions-subpg-wrap .solutions-section .text-content {
-    margin-top: -75px; } }
-
-@media only screen and (max-width: 768px) {
-  .solutions-subpg-wrap .solutions-section .text-content {
-    margin-top: 0; } }
-
 .solutions-subpg-wrap .solutions-section .solutions-bottom-overlay {
   height: 350px;
   background-color: rgba(0, 0, 0, 0.23);
@@ -14436,7 +14424,7 @@ body.page-id-1939 {
     overflow: hidden; }
   @media only screen and (min-width: 769px) and (max-width: 1200px) {
     #hr-wrapper .solutions-section {
-      padding-top: 100px;
+      padding-top: 0px;
       padding-bottom: 100px; } }
   #hr-wrapper .solutions-section img {
     border-radius: 2px; }
@@ -14451,6 +14439,8 @@ body.page-id-1939 {
       #hr-wrapper #hr-section-two,
       #hr-wrapper #hr-section-four {
         background-color: transparent; } }
+  #hr-wrapper #hr-section-four .tallIMG img {
+    height: 1080px !important; }
   #hr-wrapper #hr-section-one {
     height: 1200px; }
     @media only screen and (max-width: 1200px) {
@@ -15801,6 +15791,9 @@ body.wp-night-mode-on {
   @media screen and (max-width: 1800px) {
     #hr-wrapper #hr-section-six.solutions-section .tallIMG.x-tall-img img {
       height: 1800px !important; } }
+  @media screen and (768px) {
+    #hr-wrapper #hr-section-six.solutions-section .tallIMG.x-tall-img img {
+      height: 1080px !important; } }
 
 body.page-id-2249 #main {
   padding-top: 100px; }

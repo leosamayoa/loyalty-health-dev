@@ -5,7 +5,7 @@ jQuery(document).ready(function($){
         $('#gform_2 #input_2_22').val($(this).val());
     });
 
-    /* Code taken from the "lh-hr.js" */
+    /* Code taken from the "lh-hr.js" for hand icon animation*/
 
     var hrSectionSixSM = gsap.timeline();
     var hasSVGSixanimated = false;
@@ -67,7 +67,7 @@ jQuery(document).ready(function($){
         })
       }
 
-    /* End code taken from the "lh-hr.js" */
+    /* End code taken from the "lh-hr.js" for hand icon animation */
 
     /* Greensock scripts */
     var scrollController = new ScrollMagic.Controller();
