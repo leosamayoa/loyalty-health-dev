@@ -251,3 +251,15 @@ function agent_blog_cpt() {
         'supports' => array( 'title', 'editor', 'custom-fields' )
     ));
 }
+
+add_action( 'gform_after_submission', 'get_recent_gravity_form_entry', 10, 2 );
+function get_recent_gravity_form_entry( $entry, $form ) {
+    // Get the most recent entry
+    $recent_entry = GFAPI::get_entries( $form['id'], array( 'status' => 'active', 'page_size' => 1 ) );
+    // Do something with the most recent entry
+    // For example, you can access the fields of the entry like this:
+
+  //  print_r($recent_entry);
+
+}
+
