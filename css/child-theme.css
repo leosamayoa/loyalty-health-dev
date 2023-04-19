@@ -12657,7 +12657,8 @@ body.page-id-1939 {
   .solutions-subpg-wrap ul.toggle-list li {
     margin-bottom: 1rem;
     position: relative;
-    z-index: 200000000000000000; }
+/*     z-index: 200000000000000000;  */
+}
     .solutions-subpg-wrap ul.toggle-list li span {
       background-color: #fff;
       color: #000;

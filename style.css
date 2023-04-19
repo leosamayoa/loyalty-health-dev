@@ -11126,7 +11126,7 @@ body {
 		body .fs-50 {
         font-size: 2.3rem; } }
   body .fs-45 {
-    font-size: 2.8125rem; }
+    font-size: 2.2125rem; }
     @media screen and (max-width: 768px){
       body .fs-45 {
           font-size: 1.8rem;
@@ -12972,7 +12972,8 @@ font-size: 30px;
   .solutions-subpg-wrap ul.toggle-list li {
     margin-bottom: 1rem;
     position: relative;
-    z-index: 200000000000000000; }
+    z-index: 12; 
+}
     .solutions-subpg-wrap ul.toggle-list li span {
       background-color: #fff;
       color: #000;
@@ -16918,7 +16919,7 @@ li#menu-item-1785 {
 ***********************************************************************************/
 @media (max-width:1600px){
 	.bottomSection .fs-45{
-		font-size:2.3125rem;
+		font-size:2.2125rem;
 	}
 }
 
@@ -16937,7 +16938,7 @@ li#menu-item-1785 {
     margin-top: 0px !important;
   }
 	.bottomSection .fs-45{
-		font-size:1.8125rem;
+		font-size:1.7125rem;
 	}
 
   #digital-marketing-wrapper #dm-section-seven {

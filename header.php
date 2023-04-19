@@ -18,7 +18,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-	
+
 	<!-- Google Tag Manager -->
 		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -34,7 +34,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		  gtag('js', new Date());
 
 		  gtag('config', 'UA-161878099-1');
-			
+
 			function getBrowserData() {
 	var navigator = window.navigator;
 
@@ -55,13 +55,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 	return JSON.stringify(data);
 }
 
-			
+
 		</script>
 	<!-- End Google Tag Manager -->
-	
-	
+
+
     <?php wp_head(); ?>
-	<!-- <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&display=swap" rel="stylesheet"> 
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet"> -->
 
 	<?php $css_ver = date( "ymd-Gis", filemtime( get_stylesheet_directory() . '/style.css' ) ); ?>
@@ -82,10 +82,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7LQWS3"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-	
+
 <?php do_action( 'wp_body_open' ); ?>
 
-<div id="lh-cursor" class="d-none d-md-flex justify-content-center align-items-center position-absolute"><div id="blue-dot"></div></div> 
+<div id="lh-cursor" class="d-none d-md-flex justify-content-center align-items-center position-absolute"><div id="blue-dot"></div></div>
 
 <div class="site bg-white" id="page">
 	<!-- ******************* The Navbar Area ******************* -->
@@ -105,15 +105,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<?php if ( is_front_page() && is_home() ) : ?>
 
 						<h1 class="navbar-brand mb-0"><a rel="home" href="<?php  echo esc_url( home_url( '/' ) ); ?>" title="<?php  echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php  bloginfo( 'name' ); ?></a></h1>
-					
+
 					<?php else : ?>
-						
+
 						<a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>">
 							<img src="/wp-content/themes/understrap-child/images/LH-logo-black-1.svg" alt="equals icon">
 						</a>
 
 						<a class="header-phone" href="tel:800-411-6022"><i class="fa fa-phone"></i> 800.411.6022</a>
-						
+
 					<?php endif; ?>
 
 
@@ -123,7 +123,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<?php the_custom_logo(); ?>
 							<a class="header-phone" href="tel:800-411-6022"><i class="fa fa-phone"></i> 800.411.6022</a>
 						</div>
-						 
+
 						 <div class="dark-mode-logo">
 						 	<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-brand custom-logo-link" rel="home">
 							   <img src="/wp-content/themes/understrap-child/images/LH-Logo-White.png" alt="Loyalty Health Logo">
@@ -131,7 +131,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<a class="header-phone" href="tel:800-411-6022"><i class="fa fa-phone"></i> 800.411.6022</a>
 						 </div>
 					</div>
-					
+
 				<?php } ?><!-- end custom logo -->
 
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav-wrap" aria-controls="mobile-nav-wrap" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
@@ -157,15 +157,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				} else {
 					$sign_in_color_class = 'not-home';
 				} ?>
-
-				<!-- "Sign In" & "Get Started" Menu -->
-				<?php/* wp_nav_menu( array(
-						'theme_location' => 'main-nav-login-menu',
-						'container_class' => 'navbar d-none d-lg-flex pr-0',
-						'menu_class' => 'sign-in-get-started-menu navbar-nav ' . $sign_in_color_class,
-						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
-						)
-				); */?>
 				<div class="quick_btnbox">
 					<a class="bg-blue btn btn-default btn-animate btn-animate-black text-white text-uppercase wp-dark-mode-ignore" href="/quick-start" rel="noopener"><span>QUICK START</span></a>
 				</div>
